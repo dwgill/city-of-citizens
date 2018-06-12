@@ -1,0 +1,11 @@
+[package]
+name = "city-of-citizens"
+version = "0.1.0"
+authors = ["Daniel Gill <dwgill@outlook.com>"]
+
+[dependencies]
+ggez = "0.4"
+
+[dependencies.sdl2]
+version = "0.31"
+features = ["bundled", "static-link"]
